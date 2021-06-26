@@ -1,0 +1,4 @@
+@component('mail::message')
+Thanks for your message !
+<strong>Name</strong> {{$data['name']}}
+@endcomponent
